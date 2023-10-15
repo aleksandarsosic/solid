@@ -34,3 +34,12 @@
     // echo $u->showURL(new \OpenClosedPrinciple\LexusURLAddress());
 
     echo "<br><br><br>";
+
+    echo "Liskov Substitution Principle - LSP<br><br>";
+
+    use LiskovSubstitutionPrinciple\LiskovSubstitution as LSP;
+
+    $fuelPrices = new LSP();
+    var_dump($fuelPrices->getFuelPrices());
+
+    echo "<br><br><br>";

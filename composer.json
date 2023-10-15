@@ -11,7 +11,8 @@
     "autoload": {
         "psr-4": {
             "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple",
-            "OpenClosedPrinciple\\": "Solid/OpenClosedPrinciple"
+            "OpenClosedPrinciple\\": "Solid/OpenClosedPrinciple",
+            "LiskovSubstitutionPrinciple\\": "Solid/LiskovSubstitutionPrinciple"
         }
     }
 }
