@@ -2,7 +2,7 @@
 
     require_once './vendor/autoload.php';
 
-    echo "Single Responsibility Principle - SRP<br><br>";
+    echo "****************Single Responsibility Principle - SRP****************<br><br>";
 
     use SingleResponsibilityPrinciple\SingleResponsibility as SRP;
 
@@ -20,7 +20,7 @@
 
     echo "<br><br><br>";
 
-    echo "Open/Closed Principle - OCP<br><br>";
+    echo "****************Open/Closed Principle - OCP****************<br><br>";
 
     use OpenClosedPrinciple\OpenClosed as OCP;
 
@@ -35,11 +35,29 @@
 
     echo "<br><br><br>";
 
-    echo "Liskov Substitution Principle - LSP<br><br>";
+    echo "****************Liskov Substitution Principle - LSP****************<br><br>";
 
     use LiskovSubstitutionPrinciple\LiskovSubstitution as LSP;
 
     $fuelPrices = new LSP();
     var_dump($fuelPrices->getFuelPrices());
+
+    echo "<br><br><br>";
+
+    echo "****************Interface Segregation Principle - ISP****************<br><br>";
+
+    echo "Good Interface Segregation<br><br>";
+
+    use InterfaceSegregationPrinciple\InterfaceSegregation as ISP;
+
+    $ISP = new ISP();
+
+    var_dump($ISP->getCarsConsumption());
+
+    echo "<br><br>Violation<br><br>";
+
+    $ISPV = new \InterfaceSegregationPrinciple\InterfaceSegregationViolation();
+
+    var_dump($ISPV->getCarsConsumption());
 
     echo "<br><br><br>";

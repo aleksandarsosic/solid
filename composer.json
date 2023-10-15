@@ -12,7 +12,8 @@
         "psr-4": {
             "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple",
             "OpenClosedPrinciple\\": "Solid/OpenClosedPrinciple",
-            "LiskovSubstitutionPrinciple\\": "Solid/LiskovSubstitutionPrinciple"
+            "LiskovSubstitutionPrinciple\\": "Solid/LiskovSubstitutionPrinciple",
+            "InterfaceSegregationPrinciple\\": "Solid/InterfaceSegregationPrinciple"
         }
     }
 }
