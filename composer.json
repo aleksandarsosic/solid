@@ -10,7 +10,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple"
+            "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple",
+            "OpenClosedPrinciple\\": "Solid/OpenClosedPrinciple"
         }
     }
 }

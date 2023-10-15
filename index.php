@@ -19,3 +19,18 @@
     print_r($getJSONData->returnData($car));
 
     echo "<br><br><br>";
+
+    echo "Open/Closed Principle - OCP<br><br>";
+
+    use OpenClosedPrinciple\OpenClosed as OCP;
+
+    $url = new OCP();
+
+    echo $url->showURL(new \OpenClosedPrinciple\LexusURL());
+    echo "<br>";
+    echo $url->showURL(new \OpenClosedPrinciple\HondaURL());
+
+    // $u = new \OpenClosedPrinciple\OpenClosedViolation();
+    // echo $u->showURL(new \OpenClosedPrinciple\LexusURLAddress());
+
+    echo "<br><br><br>";
