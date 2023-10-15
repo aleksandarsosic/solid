@@ -1,0 +1,16 @@
+{
+    "name": "aleksandar/solid",
+    "description": "Solid",
+    "authors": [
+        {
+            "name": "Aleksandar Sosic",
+            "email": "aleksandar.sosic@live.ac.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple"
+        }
+    }
+}
