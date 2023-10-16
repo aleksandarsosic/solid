@@ -61,3 +61,21 @@
     var_dump($ISPV->getCarsConsumption());
 
     echo "<br><br><br>";
+
+    echo "****************Dependency Inversion Prinpiple - DIP****************<br><br>";
+
+    use DependencyInversionPrinciple\DependencyInversion as DIP;
+
+    echo "Good Dependency Inversion<br><br>";
+
+    $DIP = new DIP();
+
+    var_dump($DIP->callDIP());
+
+    use DependencyInversionPrinciple\DependencyInversionViolation as DIPV;
+
+    echo "<br><br>Violation<br><br>";
+
+    $DIPV = new DIPV();
+
+    var_dump($DIPV->callDIPV());

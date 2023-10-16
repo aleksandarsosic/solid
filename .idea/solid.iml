@@ -2,6 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Solid/DependencyInversionPrinciple" isTestSource="false" packagePrefix="DependencyInversionPrinciple\" />
       <sourceFolder url="file://$MODULE_DIR$/Solid/InterfaceSegregationPrinciple" isTestSource="false" packagePrefix="InterfaceSegregationPrinciple\" />
       <sourceFolder url="file://$MODULE_DIR$/Solid/LiskovSubstitutionPrinciple" isTestSource="false" packagePrefix="LiskovSubstitutionPrinciple\" />
       <sourceFolder url="file://$MODULE_DIR$/Solid/OpenClosedPrinciple" isTestSource="false" packagePrefix="OpenClosedPrinciple\" />

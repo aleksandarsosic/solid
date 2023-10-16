@@ -13,7 +13,8 @@
             "SingleResponsibilityPrinciple\\": "Solid/SingleResponsibilityPrinciple",
             "OpenClosedPrinciple\\": "Solid/OpenClosedPrinciple",
             "LiskovSubstitutionPrinciple\\": "Solid/LiskovSubstitutionPrinciple",
-            "InterfaceSegregationPrinciple\\": "Solid/InterfaceSegregationPrinciple"
+            "InterfaceSegregationPrinciple\\": "Solid/InterfaceSegregationPrinciple",
+            "DependencyInversionPrinciple\\": "Solid/DependencyInversionPrinciple"
         }
     }
 }
